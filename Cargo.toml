@@ -1,0 +1,15 @@
+[package]
+name = "semver_resolver"
+version = "0.1.0"
+edition = "2021"
+description = "SemVer constraints and a backtracking dependency resolver with readable conflict reports"
+license = "MIT"
+authors = ["jesuswork60-create"]
+
+[lib]
+name = "semver_resolver"
+path = "src/lib.rs"
+
+[[bin]]
+name = "semres"
+path = "src/main.rs"
