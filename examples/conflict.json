@@ -1,0 +1,7 @@
+{
+  "name": "shed",
+  "dependencies": {
+    "bricks": "^2",
+    "marmot": "*"
+  }
+}
